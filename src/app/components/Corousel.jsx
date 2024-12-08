@@ -35,7 +35,7 @@ function Corousel() {
       <h1 className='text-4xl font-medium py-8'>Articles similaires</h1>
       <div className="flex items-center justify-center">
 
-        {/* Next Button  */}
+        {/* Prev Button  */}
         <button
           onClick={prevSlide}
           className="absolute left-0 z-10 p-4 bg-blue-500 rounded-sm text-white shadow-md hover:bg-blue-300 transition-colors"
@@ -59,7 +59,7 @@ function Corousel() {
           ))}
         </div>
 
-        {/* Prev Button  */}
+        {/* Next Button  */}
         <button
           onClick={nextSlide}
           className="absolute right-0 z-10 p-4 bg-blue-500 rounded-sm text-white shadow-md hover:bg-blue-300 transition-colors"
